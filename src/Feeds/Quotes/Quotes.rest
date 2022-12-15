@@ -1,0 +1,9 @@
+@url = http://localhost:5060
+###
+GET {{url}}
+
+###
+POST {{url}}/pricing/start
+
+###
+POST {{url}}/pricing/stop
